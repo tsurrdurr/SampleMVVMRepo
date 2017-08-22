@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 
 namespace SampleMVVM
 {
-    class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel : INotifyPropertyChanged
     {
-        
+        public MainViewModel()
+        {
+
+        }
 
         #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
