@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:SampleMVVM"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <d:DesignProperties.DataContext>
+        <local:MainViewModel />
+    </d:DesignProperties.DataContext>
     <Grid>
-        
+        <TextBox Text="{Binding Test}"></TextBox>
     </Grid>
 </Window>

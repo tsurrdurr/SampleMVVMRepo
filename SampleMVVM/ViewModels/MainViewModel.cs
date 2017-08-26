@@ -14,6 +14,15 @@ namespace SampleMVVM
 
         }
 
+        public string Test
+        {
+            get => "test";
+            set
+            {
+                OnPropertyChanged(nameof(Test));
+            }
+        }
+
         #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
 
