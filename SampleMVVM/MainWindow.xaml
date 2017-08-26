@@ -10,6 +10,13 @@
         <local:MainViewModel />
     </d:DesignProperties.DataContext>
     <Grid>
-        <TextBox Text="{Binding Test}"></TextBox>
+        <TextBox Text="{Binding Test}" 
+                 Height="20" 
+                 VerticalAlignment="Top"/>
+        <Button Content="Text"
+                Command="{Binding SampleCommand}" 
+                Height="20" 
+                Margin="0,20,0,0" 
+                VerticalAlignment="Top"/>
     </Grid>
 </Window>

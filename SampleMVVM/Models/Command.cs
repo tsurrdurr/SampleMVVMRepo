@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace ESHexEditor
+namespace SampleMVVM
 {
     public class Command : ICommand
     {
